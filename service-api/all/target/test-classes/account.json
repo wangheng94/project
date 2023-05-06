@@ -1,0 +1,136 @@
+{
+  "server_name": "secb117",
+  "server_uuid": "27309A20384C4AC48109DA63B6A229AD",
+  "facilitator_id": "caixinjie@jianq.com",
+  "admin_id": "caixinjie@jianq.com",
+  "org_name": "广州市建乔自动化科技有限公司",
+  "org_email": "jianqiaoapm@jianq.com",
+  "org_phone": "+86 (755) 8830 6356",
+  "org_address": "天河区天河北路616号407房,广州市 广东省 510000,CHN",
+  "org_id": "28502085",
+  "org_id_hash": "699fe776b9e48de89f76b8412c4299eb74574aa614f630f2f953f5cee0d01178",
+  "urls": [
+    {
+      "uri": "/session",
+      "http_method": [
+        "GET"
+      ]
+    },
+    {
+      "uri": "/devices",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/roster/class/person/sync",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/server/devices",
+      "http_method": [
+        "POST"
+      ],
+      "limit": {
+        "default": 1000,
+        "maximum": 1000
+      }
+    },
+    {
+      "uri": "/roster/class",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/roster/course/sync",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/devices/sync",
+      "http_method": [
+        "POST"
+      ],
+      "limit": {
+        "default": 1000,
+        "maximum": 1000
+      }
+    },
+    {
+      "uri": "/roster/class/person",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/profile/devices",
+      "http_method": [
+        "DELETE",
+        "POST",
+        "PUT"
+      ]
+    },
+    {
+      "uri": "/roster/class/location",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/roster/class/sync",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/account",
+      "http_method": [
+        "GET"
+      ]
+    },
+    {
+      "uri": "/roster/class/location/sync",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/devices/disown",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/roster/course",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/profile/tvprovider",
+      "http_method": [
+        "POST",
+        "GET"
+      ]
+    },
+    {
+      "uri": "/device/activationlock",
+      "http_method": [
+        "POST"
+      ]
+    },
+    {
+      "uri": "/profile",
+      "http_method": [
+        "POST",
+        "GET"
+      ]
+    }
+  ],
+  "org_type": "org",
+  "org_version": "v2"
+}
